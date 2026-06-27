@@ -1,6 +1,6 @@
 {
   "title": "steer-push: a pre-life test for a steer-vs-push (selection-vs-causation) criterion",
-  "description": "Toy dynamical-systems battery testing whether a criterion can separate when a physical difference STEERS a system (selection) from when it merely PUSHES it (causation), below life -- no chooser, no self-maintaining beneficiary, no observer -- against a fixed adversarial bar (FEP-flat and Deacon-PUSH). Includes an append-only pre-registration with predicted verdicts locked before each run. The v0.1.x Step-5 build pits a bistable-latch STEER candidate against a matched monostable PUSH control and adjudicates the result honestly (a CONCEDE / renaming: the separation reduces to bistable memory with no demonstrated semiotic surplus).",
+  "description": "Toy dynamical-systems battery testing whether a criterion can separate when a physical difference STEERS a system (selection) from when it merely PUSHES it (causation), below life -- no chooser, no self-maintaining beneficiary, no observer -- against a fixed adversarial bar (FEP-flat and Deacon-PUSH). It adjudicates honestly across Step 5 (CONCEDE, renaming -- the separation reduces to bistable memory) and Step 6 (CLOSE, deflationary terminus -- below life, with no interpreter, the surplus that separates a sign from a cause-plus-memory cannot be positive without a beneficiary). Pre-registration is append-only with predicted verdicts locked before each run.",
   "upload_type": "software",
   "access_right": "open",
   "license": "Apache-2.0",
@@ -13,6 +13,7 @@
     "free energy principle",
     "teleodynamics",
     "biosemiotics",
+    "teleosemantics",
     "pre-registration"
   ]
 }

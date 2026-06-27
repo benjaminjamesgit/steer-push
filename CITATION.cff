@@ -6,13 +6,15 @@ abstract: >-
   physical difference STEERS a system (selection) from when it merely PUSHES it
   (causation), below life, against a fixed adversarial bar (FEP-flat and
   Deacon-PUSH). Includes an append-only pre-registration with predicted verdicts
-  locked before each run.
+  locked before each run. The Step-6 result is a deflationary close: below life,
+  with no interpreter, the surplus that separates a sign from a cause-plus-memory
+  cannot be positive without a beneficiary.
 type: software
 authors:
   - family-names: James
     given-names: Benjamin
-version: 0.2.0
-date-released: "2026-06-27"
+version: 0.2.1
+date-released: "2026-06-26"
 license: Apache-2.0
 repository-code: "https://github.com/benjaminjamesgit/steer-push"
 keywords:
