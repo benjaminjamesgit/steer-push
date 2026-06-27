@@ -1,0 +1,252 @@
+{
+  "C": {
+    "bistable_latch": {
+      "C1": {
+        "all_settled_centers": [
+          -1.0000000000000038,
+          0.0,
+          1.0000000000000038
+        ],
+        "basin_centers": [
+          -1.0000000000000038,
+          1.0000000000000038
+        ],
+        "n_basins": 2
+      },
+      "C2": {
+        "R_at_smallest_D": 1.0001249765702955,
+        "diverges": true,
+        "gain_ratio": 903.324806240312,
+        "outcome_well_scale": true,
+        "rows": [
+          {
+            "D": 1.0,
+            "R": 1.1071598716887574,
+            "gain": 1.1071598716887574
+          },
+          {
+            "D": 0.3,
+            "R": 1.0355787140888413,
+            "gain": 3.4519290469628046
+          },
+          {
+            "D": 0.1,
+            "R": 1.0122731310326676,
+            "gain": 10.122731310326675
+          },
+          {
+            "D": 0.03,
+            "R": 1.003729114627048,
+            "gain": 33.45763715423493
+          },
+          {
+            "D": 0.01,
+            "R": 1.0012476640305887,
+            "gain": 100.12476640305887
+          },
+          {
+            "D": 0.003,
+            "R": 1.0003747892731645,
+            "gain": 333.45826309105485
+          },
+          {
+            "D": 0.001,
+            "R": 1.0001249765702955,
+            "gain": 1000.1249765702955
+          }
+        ],
+        "trigger_not_drive": true
+      },
+      "C3": {
+        "conditioning_D": 0.0,
+        "info_bits": 0.9997114417528099
+      },
+      "C4": {
+        "bias_pulse2_bits": 0.9999819662368479,
+        "held_fraction": 1.0,
+        "memory_bits": 0.9999819662368479
+      },
+      "readout": {
+        "C1_steer": true,
+        "C2_steer": true,
+        "C3_steer": true,
+        "C4_steer": true,
+        "verdict": "STEER"
+      }
+    },
+    "monostable_push": {
+      "C1": {
+        "all_settled_centers": [
+          8.510295594323409e-52
+        ],
+        "basin_centers": [
+          8.510295594323409e-52
+        ],
+        "n_basins": 1
+      },
+      "C2": {
+        "R_at_smallest_D": 0.00012499999999999832,
+        "diverges": false,
+        "gain_ratio": 0.9999999999999934,
+        "outcome_well_scale": false,
+        "rows": [
+          {
+            "D": 1.0,
+            "R": 0.12499999999999914,
+            "gain": 0.12499999999999914
+          },
+          {
+            "D": 0.3,
+            "R": 0.03749999999999957,
+            "gain": 0.12499999999999857
+          },
+          {
+            "D": 0.1,
+            "R": 0.012499999999999893,
+            "gain": 0.12499999999999893
+          },
+          {
+            "D": 0.03,
+            "R": 0.003749999999999973,
+            "gain": 0.1249999999999991
+          },
+          {
+            "D": 0.01,
+            "R": 0.0012499999999999866,
+            "gain": 0.12499999999999865
+          },
+          {
+            "D": 0.003,
+            "R": 0.00037499999999999665,
+            "gain": 0.12499999999999888
+          },
+          {
+            "D": 0.001,
+            "R": 0.00012499999999999832,
+            "gain": 0.12499999999999832
+          }
+        ],
+        "trigger_not_drive": false
+      },
+      "C3": {
+        "conditioning_D": 0.0,
+        "info_bits": 0.0009671307259652359
+      },
+      "C4": {
+        "bias_pulse2_bits": 0.000995689450447203,
+        "held_fraction": 0.4625,
+        "memory_bits": 0.004052248611019892
+      },
+      "readout": {
+        "C1_steer": false,
+        "C2_steer": false,
+        "C3_steer": false,
+        "C4_steer": false,
+        "verdict": "PUSH"
+      }
+    }
+  },
+  "FEP": {
+    "fep_can_track_split": false,
+    "latch_surprisal": 5.586363936341011,
+    "mean_surprisal_by_system": [
+      5.586363936341011,
+      4.872816172695741,
+      4.872816172695741
+    ],
+    "mean_surprisal_varies": true,
+    "n_modes_by_system": [
+      2,
+      1,
+      1
+    ],
+    "only_robust_separator": "n_modes (= C1 multistability); mean surprisal also varies but tracks well-width, not steer/push",
+    "probe_kappa1_push_surprisal": 5.912536943535658,
+    "records": [
+      {
+        "mean_surprisal_nats": 5.586363936341011,
+        "mode_mass": 0.9990605406926722,
+        "n_modes": 2,
+        "name": "bistable_latch",
+        "self_evidencing": true
+      },
+      {
+        "mean_surprisal_nats": 4.872816172695741,
+        "mode_mass": 0.999852009351957,
+        "n_modes": 1,
+        "name": "monostable_push",
+        "self_evidencing": true
+      },
+      {
+        "mean_surprisal_nats": 4.872816172695741,
+        "mode_mass": 0.999852009351957,
+        "n_modes": 1,
+        "name": "featureless_persister",
+        "self_evidencing": true
+      }
+    ],
+    "verdict_constant": true
+  },
+  "maintenance": {
+    "bistable_latch": {
+      "drift_at_rest": 0.0,
+      "entropy_production": 0.0,
+      "net_current": -0.0004191382505172353,
+      "persists_with_no_input": true
+    },
+    "driven_ring_A": {
+      "drift_at_rest": 9.878377370388918,
+      "entropy_production": 33.338092131145956,
+      "net_current": 1.1112697377048653,
+      "persists_with_no_input": false
+    },
+    "featureless_persister": {
+      "drift_at_rest": 0.0,
+      "entropy_production": 0.0,
+      "net_current": -0.0003959672085829731,
+      "persists_with_no_input": true
+    },
+    "monostable_push": {
+      "drift_at_rest": 0.0,
+      "entropy_production": 0.0,
+      "net_current": -0.0003959672085829731,
+      "persists_with_no_input": true
+    }
+  },
+  "params": {
+    "barrier": 1.0,
+    "c2_divergence_ratio": 10.0,
+    "c2_well_scale_frac": 0.5,
+    "d_pulse": 2.0,
+    "d_readout": 0.2,
+    "d_subthreshold": 0.0,
+    "d_sweep": [
+      1.0,
+      0.3,
+      0.1,
+      0.03,
+      0.01,
+      0.003,
+      0.001
+    ],
+    "drive_force": 1.5,
+    "dt": 0.001,
+    "flux_steps": 200000,
+    "grid_n": 2001,
+    "grid_range": 2.5,
+    "hold_steps": 10000,
+    "ic_range": 2.0,
+    "info_high_bits": 0.5,
+    "info_low_bits": 0.1,
+    "mode_window": 0.3,
+    "mono_stiffness": 8.0,
+    "n_ic": 201,
+    "n_trials": 400,
+    "pulse_steps": 2000,
+    "rest_drift_tol": 0.001,
+    "seed": 20260626,
+    "settle_steps": 10000,
+    "temp": 0.05,
+    "well_sep": 1.0
+  }
+}
