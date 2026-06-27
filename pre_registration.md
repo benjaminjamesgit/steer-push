@@ -40,3 +40,29 @@ The project stands iff (B) is genuinely distinct from (A): a selector that persi
 
 ## Standing reading (hold weak points as weak)
 Nearest renaming traps: (i) the criterion labels all symmetry-breaking STEER (vacuity / Friston tautology) — guard with matched push controls and the reliability requirement; (ii) the (B) candidate persists because something benefits, (A) in disguise — guard by exhibiting the no-beneficiary structure explicitly; (iii) "persistent selector" reduces to "boundary condition / constraint" with no semiotic surplus — the deepest trap; the bar in Section 1 is the test.
+
+## 7. Step 5 — bistable-latch candidate, measures, predicted verdicts
+
+### 7.1 Candidate + matched control
+- STEER candidate (the (B) instance): an overdamped particle in a BISTABLE double-well potential. A small, brief difference D = {d, d'} (a transient bias) selects which well the particle settles in. The two wells are the afforded retained states; a vanishing D still flips the outcome; the well depth (not D) sets the outcome magnitude. The chosen well is deep, so the selection persists AT EQUILIBRIUM with zero throughput -- nothing is maintained, nothing benefits. The latched state conditions the response to a subsequent difference (the recursion: a record that is itself the selector).
+- Matched PUSH control: the SAME particle in a MONOSTABLE potential (single well, optionally tilted by D). Same D protocol, one retained state; the resting position is a forced, scaling function of D (D -> 0 implies response -> 0). No afforded alternatives, no selection, no persistent choice-record. The pair differs in exactly ONE feature -- multistability.
+- Why the latch (not a dissipative channel or template): a dissipative structure persists by throughput (a quasi-beneficiary -> risks collapsing into fork (A)); a template edges toward self-replication (Pattee's gate). The equilibrium latch persists for purely structural reasons with zero throughput -- below BOTH gates by construction. Cleanest (B); start minimal.
+
+### 7.2 Operational measures (computable from the system's own states/dynamics; the FEP check alone deliberately invokes the competitor's construct)
+C-STEER (four sub-measures; C = STEER iff all fire; the control must FAIL C1 and C2):
+  (C1) Multistability: number of retained states under D at baseline, from many initial conditions. Steer >= 2; push = 1.
+  (C2) Trigger-not-drive: gain |dR|/|dD| as D -> 0. Steer diverges (a vanishing trigger flips a full-size outcome); push finite, R -> baseline as D -> 0.
+  (C3) Local information creation: I(R ; internal-state | D) -- mutual information between the retained state and the system's PRIOR internal configuration, conditioned on D. Steer > 0 (latch co-determines R beyond what D supplies); push ~ 0 (R is a function of D alone).
+  (C4) Selector-persistence (recursion/reliability): two-pulse protocol -- apply d, REMOVE it, then apply a second difference. Does interaction-1 reliably bias interaction-2 with the first D gone? Steer: yes, bias persists with no input (long memory / selector-state autocorrelation under D=0). Push: no trace; second response is just f(D2).
+FEP-FLAT (competitor check): construct the standard Markov-blanket / variational-free-energy description and apply it to the WHOLE battery -- latch (steer), monostable (push), featureless persister (a particle relaxing to one fixed point, no D-structure). FEP-flat iff the FEP verdict (the "self-evidencing / free-energy-minimizing persister" status and the imputed posterior over external states) is CONSTANT across all three -- it does NOT separate steer from push. State the Markov-blanket partition and the free-energy quantity explicitly and conservatively; if the construction can be made to track the steer/push split, report that -- it would mean FEP already does the work and the candidate FAILS the bar.
+DEACON-PUSH / no-beneficiary (also the (A)/(B) guard): MAINTENANCE WORK -- the steady-state dissipation / entropy production required to HOLD the retained state. No-beneficiary (B, Deacon-PUSH) = ~zero: the latched well is at equilibrium; cut all driving and the state stays. Beneficiary (A, collapse) = positive: the structure must dissipate to hold itself up; cutting supply degrades it. The latch must read ~zero; positive means (A) in disguise.
+
+### 7.3 Predicted verdicts (LOCKED before any run)
+- Latch: C = STEER (C1>=2; C2 diverges; C3>0; C4 persistent memory); FEP-FLAT (verdict constant across the battery); DEACON-PUSH (maintenance work ~ 0).
+- Monostable: C = PUSH (C1=1; C2 finite with R->0 as D->0; C3~0; C4 no memory).
+- ADJUDICATION RULE (the bar, Section 1): contribution IFF the latch reads C=STEER AND FEP-flat AND Deacon-PUSH, AND the control reads C=PUSH. Any miss -> CONCEDE (renaming), recorded honestly.
+
+### 7.4 Known exposures (held, not hidden)
+- FEP-flat is the riskiest measure; its construction is contestable; report the partition and quantity used.
+- Trap (iii) bites hardest here: a latch is a flip-flop, and "the latched bit is a sign" may be renaming bistable memory. The latch is chosen BECAUSE it is the cleanest (B): a pass is strong, a collapse is conceded cleanly. The bar (7.3) is the test; do not paper over a "no semiotic surplus" reading -- flag it.
+- (A)/(B) guard = the maintenance-work measure; positive maintenance work = collapse into (A).
