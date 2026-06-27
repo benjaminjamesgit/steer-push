@@ -1,0 +1,190 @@
+{
+  "error_store": {
+    "deacon_push": true,
+    "functional_surplus_treats_as_error": 0.0,
+    "occupies_under_FUNCTIONAL": false,
+    "raw_surplus_records_correctness": 2.0,
+    "surplus_positive_functional": false,
+    "would_occupy_under_RAW_correlate": true
+  },
+  "fep_flat": true,
+  "grid": [
+    {
+      "C_steer": true,
+      "bar_occupied": false,
+      "deacon_push": true,
+      "entropy_production": 0.0,
+      "fep_flat": true,
+      "gamma": 0.0,
+      "standard": "S1",
+      "surplus": 0.0006246995302019877,
+      "surplus_positive": false
+    },
+    {
+      "C_steer": true,
+      "bar_occupied": false,
+      "deacon_push": false,
+      "entropy_production": 33.338092131145956,
+      "fep_flat": true,
+      "gamma": 0.25,
+      "standard": "S1",
+      "surplus": 0.24705793304876608,
+      "surplus_positive": true
+    },
+    {
+      "C_steer": true,
+      "bar_occupied": false,
+      "deacon_push": false,
+      "entropy_production": 169.0686062512986,
+      "fep_flat": true,
+      "gamma": 0.5,
+      "standard": "S1",
+      "surplus": 0.49814766263202626,
+      "surplus_positive": true
+    },
+    {
+      "C_steer": true,
+      "bar_occupied": false,
+      "deacon_push": false,
+      "entropy_production": 709.0267145808435,
+      "fep_flat": true,
+      "gamma": 1.0,
+      "standard": "S1",
+      "surplus": 0.9938226377652988,
+      "surplus_positive": true
+    },
+    {
+      "C_steer": true,
+      "bar_occupied": false,
+      "deacon_push": false,
+      "entropy_production": 2866.908698804573,
+      "fep_flat": true,
+      "gamma": 2.0,
+      "standard": "S1",
+      "surplus": 1.9997452608219193,
+      "surplus_positive": true
+    },
+    {
+      "C_steer": true,
+      "bar_occupied": false,
+      "deacon_push": true,
+      "entropy_production": 0.0,
+      "fep_flat": true,
+      "gamma": 0.0,
+      "standard": "S2",
+      "surplus": 0.000366449784468297,
+      "surplus_positive": false
+    },
+    {
+      "C_steer": true,
+      "bar_occupied": false,
+      "deacon_push": false,
+      "entropy_production": 33.338092131145956,
+      "fep_flat": true,
+      "gamma": 0.25,
+      "standard": "S2",
+      "surplus": 0.001031448566292531,
+      "surplus_positive": false
+    },
+    {
+      "C_steer": true,
+      "bar_occupied": false,
+      "deacon_push": false,
+      "entropy_production": 169.0686062512986,
+      "fep_flat": true,
+      "gamma": 0.5,
+      "standard": "S2",
+      "surplus": 0.005535752203838673,
+      "surplus_positive": false
+    },
+    {
+      "C_steer": true,
+      "bar_occupied": false,
+      "deacon_push": false,
+      "entropy_production": 709.0267145808435,
+      "fep_flat": true,
+      "gamma": 1.0,
+      "standard": "S2",
+      "surplus": 0.0027918648642070165,
+      "surplus_positive": false
+    },
+    {
+      "C_steer": true,
+      "bar_occupied": false,
+      "deacon_push": false,
+      "entropy_production": 2866.908698804573,
+      "fep_flat": true,
+      "gamma": 2.0,
+      "standard": "S2",
+      "surplus": 0.05889967239060967,
+      "surplus_positive": false
+    }
+  ],
+  "latch_C_readout": "STEER",
+  "maintenance_anchor_driven_A": {
+    "deacon_push": false,
+    "entropy_production": 33.338092131145956
+  },
+  "params": {
+    "barrier": 1.0,
+    "c2_divergence_ratio": 10.0,
+    "c2_well_scale_frac": 0.5,
+    "d_pulse": 2.0,
+    "d_readout": 0.2,
+    "d_subthreshold": 0.0,
+    "d_sweep": [
+      1.0,
+      0.3,
+      0.1,
+      0.03,
+      0.01,
+      0.003,
+      0.001
+    ],
+    "drive_force": 1.5,
+    "dt": 0.001,
+    "flux_steps": 200000,
+    "gamma_sweep": [
+      0.0,
+      0.25,
+      0.5,
+      1.0,
+      2.0
+    ],
+    "grid_n": 2001,
+    "grid_range": 2.5,
+    "hold_steps": 10000,
+    "ic_range": 2.0,
+    "info_high_bits": 0.5,
+    "info_low_bits": 0.1,
+    "maint_drive_scale": 6.0,
+    "maint_eps_step6": 1e-06,
+    "mode_window": 0.3,
+    "mono_stiffness": 8.0,
+    "n_ic": 201,
+    "n_surplus_trials": 2000,
+    "n_trials": 400,
+    "pc_gain": 2.0,
+    "pc_perturb": 2.0,
+    "pc_setpoint": 0.0,
+    "pc_steps": 2000,
+    "pc_trials": 600,
+    "pulse_steps": 2000,
+    "rest_drift_tol": 0.001,
+    "seed": 20260626,
+    "settle_steps": 10000,
+    "surplus_thresh": 0.1,
+    "temp": 0.05,
+    "template_value": 1.0,
+    "v_drive": 2.0,
+    "v_leak": 2.0,
+    "v_steps": 4000,
+    "v_temp": 0.02,
+    "well_sep": 1.0
+  },
+  "positive_control": {
+    "surplus": 0.42263669565098766,
+    "surplus_positive": true
+  },
+  "solution_set_occupied": false
+}

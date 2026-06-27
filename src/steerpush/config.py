@@ -69,6 +69,24 @@ class Config:
     rest_drift_tol: float = 1.0e-3      # |x_end - x_well| below => state persists with no input
     mode_window: float = 0.3            # FEP self-evidencing: stationary mass within this of a mode
 
+    # --- Step 6: interpretant-proxy / read-out family + surplus (misrepresentation) ---
+    gamma_sweep: Tuple[float, ...] = (0.0, 0.25, 0.5, 1.0, 2.0)   # feedback strength: 0 (inert) -> clearly-(A)
+    v_drive: float = 2.0          # read-out -> viability replenishment scale
+    v_leak: float = 2.0           # viability leak toward death (equilibrium = 0)
+    v_steps: int = 4000           # steps to viability steady state (>> 1/v_leak relaxation)
+    v_temp: float = 0.02          # viability noise
+    n_surplus_trials: int = 2000  # false-token-injection trials per (standard, gamma); large to pin the S2 noise floor
+    surplus_thresh: float = 0.1   # surplus > this => a system-internal error variable is present (>0)
+    maint_eps_step6: float = 1.0e-6   # Deacon-PUSH iff family NESS entropy production < this
+    maint_drive_scale: float = 6.0    # gamma -> driven-ring drive (gamma>0 => drive>1 => running NESS)
+    template_value: float = 1.0   # S2 fixed EXTERNAL template the action is scored against
+    # surplus positive control (an explicit error-corrector: set-point + cost)
+    pc_setpoint: float = 0.0
+    pc_gain: float = 2.0          # corrective relaxation rate toward the set-point
+    pc_perturb: float = 2.0       # false-token disturbance magnitude
+    pc_steps: int = 2000
+    pc_trials: int = 600
+
     # --- seeds (deterministic) ---
     seed: int = 20260626
 
