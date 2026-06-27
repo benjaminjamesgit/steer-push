@@ -4,10 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "steerpush"
-version = "0.1.0"
+version = "0.1.1"
 description = "Below life: does a physical difference STEER a system (selection) or merely PUSH it (causation)? A chooser-free, observer-free criterion under an adversarial bar."
 requires-python = ">=3.11"
 dependencies = ["numpy"]
+classifiers = ["License :: OSI Approved :: Apache Software License"]
 
 [project.optional-dependencies]
 dev = ["pytest"]
