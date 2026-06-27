@@ -97,3 +97,31 @@ Per Section 1 and 7.4 the candidate dissolves into a boundary condition. **VERDI
 
 ### 8.5 Exposed pre-registration weakness (recorded, not hidden; for Step 6)
 The sharpest structural finding: the bar's three arms (C-STEER, FEP-flat, Deacon-PUSH) collapse to one degree of freedom (multistability), and the "semiotic surplus / not a boundary condition" criterion in Section 1 / 7.4 was never operationalized into a measure. So 7.3's four booleans were effectively unfalsifiable in the STEER direction — any clean bistable memory passes them. That is a genuine weakness of this pre-registration, not a flaw revealed only by hindsight (7.4 already named the trap). Forward lesson: any next criterion must OPERATIONALIZE the surplus — a downstream coupling / read-out that does work conditioned on the latched bit, an interpretant proxy, or a function the bit serves — or it will keep renaming memory. The positive content of this negative result: below life, with no interpretant, the steer/sign cannot be separated from cause-plus-memory by structural measures of the system ALONE; the missing ingredient is exactly the beneficiary/interpreter the pre-life setting excludes — which is why the slot (Section 0) is empty. The project's matched-control + trap-(iii) design drove the candidate onto this horn cleanly rather than papering over it; that is the intended "vulnerable in the right way" outcome.
+
+## 9. Step 6 — interpretant-proxy decisive test (close or occupy)
+
+### 9.1 Premise (from Section 8.5)
+Step 5 conceded: the latch passes the operational gate yet renames bistable memory, because no measure detects ABOUTNESS and the interpretant is excluded by the below-life constraints. Step 6 builds the missing surplus measure and tests whether surplus can be positive below the beneficiary gate. CLOSE-OR-OCCUPY: if no candidate has surplus AND Deacon-PUSH, the program closes deflationary (sign-below-life-without-interpreter is ill-posed); if one does, the slot is occupied (CONTRIBUTION) and the program continues.
+
+### 9.2 Surplus measure (aboutness = possibility of misrepresentation; Dretske)
+A token MISrepresents when it says "D" though D did not obtain, AND the falsity matters to the SYSTEM (a system-internal right/wrong, not an observer's label). Probe by FALSE-TOKEN INJECTION: force bit<->D mismatches independently of the normal coupling, and measure whether any system-internal variable treats a false token AS ERROR (a cost / correction / error-signal) rather than merely producing a different causal trajectory. Memory has none; a sign does. Defined WITHOUT reference to maintenance-work, so any surplus<->beneficiary link is a DISCOVERY, not a definition. State the estimator explicitly.
+Two standards of correctness (both included, to give the empty-solution-set its hardest test):
+  (S1) PERSISTENCE standard: the system's own continued existence is the standard (false token -> tends to degrade; true -> persists). System-internal; requires the read-out to feed back into maintenance.
+  (S2) FIXED-TEMPLATE standard: the read-out must match a fixed external template; correct = matches. External standard; no feedback required.
+
+### 9.3 Candidate family
+Base = the conceded bistable latch (reliable D->bit selector). Add a downstream READ-OUT that does work conditioned on the latched bit, parameterized by a feedback strength gamma:
+  - gamma = 0 (INERT): read-out acts but does not couple back to persistence -- pure mechanism, no beneficiary (maintenance ~ 0, Deacon-PUSH).
+  - gamma > 0 (SELF-MAINTAINING): correct use feeds back to hold the system far from equilibrium, incorrect use degrades it -- a beneficiary (maintenance > 0, Deacon-(A)).
+Sweep gamma from 0 to clearly-(A). For each standard {S1, S2} and each gamma, measure: C-readout (STEER?), FEP-flat, maintenance-work (Deacon arm), SURPLUS (false-token misrepresentation signal).
+
+### 9.4 Predicted verdicts (LOCKED before any run)
+- S1: surplus > 0 IFF gamma > 0 (a system-internal error-distinction exists only when the system persists-differentially on true vs false tokens = a beneficiary). So surplus > 0 IFF maintenance > 0 IFF Deacon-PUSH FAILS.
+- S2: surplus ~ 0 for ALL gamma (a fixed external template grounds no system-internal error; a mismatch is a different trajectory, not a wrong one). Pure mechanism even at gamma = 0.
+- THEREFORE no family member reads surplus > 0 AND Deacon-PUSH. The full bar -- STEER + FEP-flat + Deacon-PUSH + surplus > 0 -- has an EMPTY solution set; surplus and the no-beneficiary constraint are mutually exclusive.
+- ADJUDICATION: if the solution set is empty, the program CLOSES deflationary -- "sign below life with no interpreter" is ill-posed; aboutness is positive only where the no-beneficiary constraint breaks (the constructive teleosemantics result: no misrepresentation without function-for-a-beneficiary, Millikan/Dretske, below life). If ANY candidate reads surplus > 0 AND STEER AND FEP-flat AND Deacon-PUSH, the slot is OCCUPIED: CONTRIBUTION, program continues.
+
+### 9.5 Non-circularity, positive control, exposures
+- The surplus estimator reads a system-internal error variable that is NOT maintenance-work, so the surplus<->beneficiary link is discovered, not built in.
+- SURPLUS POSITIVE CONTROL: a system that uncontroversially HAS misrepresentation/function -- a minimal error-correcting feedback loop with an explicit set-point and cost -- MUST read surplus > 0. If it reads 0, the measure is broken (non-falsifiable in the surplus direction), not the hypothesis; fix the measure before adjudicating.
+- This is the program's potential TERMINUS. Record the verdict honestly either way; the 9.4 falsifier is real -- do not force a close, do not force a contribution.
